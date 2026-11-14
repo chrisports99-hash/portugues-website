@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.7;
+  color: #2D2A32;
+  background-color: #FFF9E8;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fredoka", sans-serif;
+  color: #6A2C91;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+h1 { font-size: 56px; }
+h2 { font-size: 36px; }
+a { color: #6A2C91; }
+ul, ol { padding-left: 20px; }
+img { width: 100%; }
+
+.nav a {
+  padding: 8px 16px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.nav a:hover {
+  background-color: #F9C80E;
+  border-color: #F9C80E;
+  color: #2D2A32;
+}
+
+.container { width: 90%; max-width: 1100px; margin: 0 auto; }
+.section { padding: 80px 0; }
+.section-intro { margin-bottom: 30px; }
+
+
+.header-inner, .hero-inner, .about-top, .values, .team, .gallery,
+.product-card, .contact-grid, .footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team, .gallery { flex-wrap: wrap; }
+
+.value-card, .team-member, .contact-item, .about-mission, .product-card, .tile {
+  padding: 24px;
+  background-color: white;
+  border-radius: 20px;
+}
+#about, #team, #gallery { background-color: white; }
+.value-card, .about-mission, .team-member, .tile { background-color: #FFF9E8; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 26px;
+  border: 0;
+  border-radius: 50px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 17px;
+  color: #2D2A32;
+  text-align: center;
+  text-decoration: none;
+  background-color: #F9C80E;
+}
+
+.btn-outline { background-color: white; border: 3px solid #F9C80E; }
+.btn-big { padding: 14px 36px; font-size: 20px; }
+
+.site-header, .site-footer { color: white; background-color: #6A2C91; }
+.site-header { padding: 12px 0; }
+.site-footer { padding: 40px 0 16px; }
+.footer-logo img { width: auto; height: 60px; display: block; }
+.site-header img { width: auto; height: 80px; display: block; }
+.footer-tagline { color: #F9C80E; }
+.nav a, .footer-nav a { margin-left: 14px; color: white; text-decoration: none; }
+.copyright { margin-top: 20px; text-align: center; }
+
+.hero { padding: 60px 0; }
+.hero-text { width: 55%; }
+.hero-sub { margin-bottom: 24px; font-size: 20px; }
+.hero-actions .btn { margin-right: 10px; }
+
+.about-story { width: 52%; }
+.about-mission { width: 40%; border-left: 8px solid #4C8C2B; }
+.values { margin-top: 30px; align-items: stretch; }
+.team { align-items: stretch; }
+.value-card { width: 31%; text-align: center; border-bottom: 6px solid #4C8C2B; }
+.value-icon { font-size: 40px; }
+.team-member { width: 23%; text-align: center; font-size: 15px; }
+
+.badge {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 12px;
+  padding-top: 15px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: white;
+  background-color: #6A2C91;
+  border-radius: 50%;
+}
+
+#team, #gallery { border-top: 6px solid #F9C80E; }
+
+.product-card { align-items: stretch; padding: 0; overflow: hidden; }
+.product-photo { width: 40%; background-color: #F9C80E; }
+.product-photo img { height: 100%; object-fit: cover; }
+.product-info { width: 60%; padding: 30px; }
+.product-info .btn { margin-top: 20px; }
+.price span { font-family: "Fredoka", sans-serif; font-size: 48px; color: #4C8C2B; }
+
+.tile { width: 32%; margin-bottom: 16px; padding: 30px 10px; text-align: center; font-size: 50px; }
+.tile p { font-size: 18px; }
+.tile { padding: 10px; }
+.tile img { height: 220px; object-fit: cover; border-radius: 14px; }
+
+.contact-info, .map-box { width: 48%; }
+.contact-item { display: flex; margin-bottom: 16px; }
+.contact-icon { margin-right: 14px; font-size: 30px; }
+.map-box iframe { width: 100%; height: 320px; border: 0; border-radius: 20px; }
